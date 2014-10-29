@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="description" content=""/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <title>Bootstrap</title>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class=row-fluid>
+      <div class="span8 bloco1">
+        <h1>Corpo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        <p class="well">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p class="muted">Frase com ênfase</p>
+        <p class="text-warning">Frase com ênfase</p>
+        <p class="text-error">Frase com ênfase</p>
+        <p class="text-info">Frase com ênfase</p>
+        <p class="text-success">Frase com ênfase</p>
+
+        <!-- Uma Citação  -->
+        <blockquote class="pull-left">
+          <p>a. Ut enim ad minim veniam,
+        quis nostrud in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa </p>
+        <small>Caio Cesar <cite> the book dos recordes</cite></small>
+        </blockquote>
+
+        <!-- Tabela Titulo  -->
+        <table class="table table-bordered table-hover table-condensed">
+          <caption>Aprovados e Reprovados</caption>
+          <thead>
+            <tr>
+              <th>Numero</th>
+              <th>Nome</th>
+              <th>Nota</th>
+              <th>Situação</th>
+            </tr>
+          </thead>
+
+          <!-- Tabela Corpo -->
+          <tbody>    
+            <tr class="error">
+              <td>01</td>
+              <td>Ana Maria</td>
+              <td>9.0</td>
+              <td>Arpovada</td>
+            </tr>
+            <tr class="warning">
+              <td>01</td>
+              <td>Ana Maria</td>
+              <td>9.0</td>
+              <td>Arpovada</td>
+            </tr>
+            <tr class="success">
+              <td>01</td>
+              <td>Ana Maria</td>
+              <td>9.0</td>
+              <td>Arpovada</td>
+            </tr>
+            <tr class="info">
+              <td>01</td>
+              <td>Ana Maria</td>
+              <td>9.0</td>
+              <td>Arpovada</td>
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>Ana Maria</td>
+              <td>9.0</td>
+              <td>Arpovada</td>
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>Ana Maria</td>
+              <td>9.0</td>
+              <td>Arpovada</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Trabalhando com formularios -->
+        <form>
+          <input type="text" class="input-block-level">
+        </form>
+
+        <form>
+          <input type="text" class="input-mini" placeholder="Campo de texto"></br>
+          <input type="text" class="input-small" placeholder="Campo de texto"></br>
+          <input type="text" class="input-medium" placeholder="Campo de texto"></br>
+          <input type="text" class="input-large" placeholder="Campo de texto"></br>
+          <input type="text" class="input-xlarge" placeholder="Campo de texto"></br>
+
+          <!-- Botao Colado -->
+          <div class="input-append">
+            <input type="text" class="input-xxlarge" placeholder="Campo de texto">
+            <button class="btn">Entrar</button>
+          </div>
+
+        </form>
+
+        <form action="">
+          <div class="controls input-prepend">
+            <span class="add-on">@</span>
+            <input type="text" class="span5" id="prependInput" placeholder="Teste do @">
+          </div>
+
+
+          <div class=" controls controls-row">
+            <input type="text" class="span4" placeholder="Span4">
+            <div class="input-append">
+              <input type="text" class="span1" placeholder="Span1" id="appendInput">
+              <span class="add-on">@</span>
+            </div>
+          </div>
+        </form>
+
+         <!-- Formulario horizontal -->
+        <form action="" class="form-horizontal">
+          <div class="control-group">
+            <label for="" class="control-label">Email</label>
+            <div class="controls">
+              <input type="email" id="inputEmail" required>
+            </div>
+          </div>
+          <div class="control-group">
+            <label for="" class="control-label">Senha</label>
+            <div class="controls">
+              <input type="text" id="inputPassword">
+              <button class="btn">Entrar</button>
+            </div>
+          </div>
+        </form>
+
+        <!-- Validacoes Ajuda-->
+        <div class="control-group error">
+          <label class="control-lavel">Input com erro</label>
+          <div class="controls">
+            <input type="text">
+            <span class="help-inline">corrija o erro</span>
+          </div>
+        </div>
+
+        <div class="control-group warning">
+          <label class="control-lavel">Input com aviso</label>
+          <div class="controls">
+            <input type="text">
+            <span class="help-inline"></span>
+          </div>
+        </div>
+
+        <div class="control-group success">
+          <label class="control-lavel">Input com Sucesso</label>
+          <div class="controls">
+            <input type="text">
+            <span class="help-inline"></span>
+          </div>
+        </div>
+
+        <div class="control-group info">
+          <label class="control-lavel"> Input Informativo</label>
+          <div class="controls">
+            <input type="text">
+            <span class="help-inline"></span>
+          </div>
+        </div>
+
+
+      <div class="span4 bloco2">
+        <h1>Barra Lateral</h1>
+
+        <!-- Busca -->
+        <form class="form-search">
+          <input type="text" class="input-medium search-query">
+          <button class="btn">Busca</button>
+        </form>
+
+        </p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+
+        <!-- Lista não Ordenada -->
+        <ul class="unstyled">
+          <li> Menu 1</li>
+          <li> Menu 2</li>
+          <li> Menu 3
+            <ul>
+              <li> Sub-Menu 1</li>
+              <li> Sub-Menu 2</li>
+              <li> Sub-Menu 3</li>
+            </ul></li>
+          <li> Menu 4</li>
+          <li> Menu 5</li>
+        </ul>
+
+        <!-- Lista Ordenada -->
+        <ol class="inline">
+          <li> Menu 1</li>
+          <li> Menu 2</li>
+          <li> Menu 3</li>
+          <li> Menu 4</li>
+          <li> Menu 5</li>
+        </ol>
+
+        <!-- Lista Descritiva -->
+        <dl class="dl-horizontal">
+          <dt>Item 1</dt>
+            <dd>Descrição da Lista</dd>
+          <dt>Item 2</dt>
+            <dd>Descrição da Lista</dd>
+          <dt>Item 3</dt>
+            <dd>Descrição da Lista</dd>
+          <dt>Item 4</dt>
+            <dd>Descrição da Lista</dd>
+          <dt>Item 5</dt>
+            <dd>Descrição da Lista</dd>
+        </dl>
+
+        <!-- Formulario in-line de Login -->
+        <form action="" class="form-inline">
+          <input type="text" class="input-small" placeholder="Email">
+          <input type="text" class="input-small" placeholder="Senha">
+          <button class="btn">Entrar</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
